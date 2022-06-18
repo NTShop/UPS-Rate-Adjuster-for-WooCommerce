@@ -1,4 +1,4 @@
-# UPS-Rate-Adjuster-for-WooCommerce
+# UPS rate adjuster for WooCommerce
 
 Adjusts UPS shipping rates on a per product basis via a setting in each product. Works with the UPS Shipping Pro plugin from IgniteWoo.com.
 
