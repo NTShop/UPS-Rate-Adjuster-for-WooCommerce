@@ -45,4 +45,4 @@ function ups_rate_adjuster_load_if_wc_active() {
 	}
 	require_once dirname( __FILE__ ) . '/includes/class-wc-adjust-ups-rates.php';
 }
-add_action( 'init', 'ups_rate_adjuster_load_if_wc_active', 0 );
+add_action( 'plugins_loaded', 'ups_rate_adjuster_load_if_wc_active', 0 );
