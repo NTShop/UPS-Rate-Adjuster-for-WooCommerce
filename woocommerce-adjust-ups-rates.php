@@ -35,7 +35,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Loads main class file is WooCommerce is active on the site.
+ * Loads main class file if WooCommerce is active on the site.
  *
  * @return void
  */
