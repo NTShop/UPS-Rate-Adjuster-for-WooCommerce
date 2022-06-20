@@ -5,7 +5,7 @@
  * @author      Mark Edwards
  * @version     1.0
  *
- * @package UPS Rate Adjuster
+ * @package UPS_Rate_Adjuster
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
