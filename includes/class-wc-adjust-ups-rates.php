@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Undocumented class
+ * Rate adjuster loader
  */
 class WC_Adjust_UPS_Rates {
 
