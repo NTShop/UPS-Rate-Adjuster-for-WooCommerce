@@ -3,7 +3,7 @@
  * Plugin Name: WooCommerce UPS Rate Adjuster
  * Plugin URI: https://github.com/NTShop/UPS-Rate-Adjuster-for-WooCommerce
  * Description: Allows the UPS rates to be adjusted up or down on a per product basis. Requires IgniteWoo's UPS Shipping Pro extension.
- * Version: 1.0
+ * Version: 2.0
  * Author: Mark Edwards
  * Author URI: https://github.com/NTShop/
  * Text Domain: woocommerce-adjust-ups-rates

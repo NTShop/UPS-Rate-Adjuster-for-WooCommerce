@@ -45,6 +45,8 @@ class UPS_Rate_Adjuster {
 			return $rate;
 		}
 
+		$adjustment_to_add = 0;
+
 		// Check each product in the cart to determine if it has a rate adjustment defined.
 		// If so then adjust the UPS rate.
 		foreach ( WC()->cart->get_cart() as $item => $item_values ) {
@@ -76,13 +78,11 @@ class UPS_Rate_Adjuster {
 
 			// Apply adjustment once per quantity of the item in the cart.
 			for ( $i = 0; $i < $item_values['quantity']; $i++ ) {
-				if ( ( $rate['cost'] + $adjustment ) < 0 ) {
-					$rate['cost'] = 0;
-				} else {
-					$rate['cost'] += $adjustment;
-				}
+				$adjustment_to_add += $adjustment;
 			}
 		}
+
+		$rate['cost'] += $adjustment_to_add;
 
 		return $rate;
 	}
